@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    text-align: center;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    height: 235px;
+    width: 450px;
+    margin: auto;
+    color: #eeeeee;
+    background: #22305a;
+    border-radius: 5px; 
+    
+    
+}
+
+@font-face {
+    font-family: Timer;
+    src : url("Timer.ttf");
+}
+
+button{
+    background: none;
+    color: #9aabd8;
+    border: solid 2px #9aabd8;
+    border-radius: 5px;
+    padding: 5px 4px;
+    font-size: 12px;
+    font-family: Timer;
+    
+
+    
+}
+.score-section h3 {
+    width: 120px;     
+    text-align: center;
+    margin-bottom: 4px; 
+    margin-top: 0;      
+}
+
+.score-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.score{
+    font-family: timer;
+    font-size: 90px;
+    background-color: #0a0001;
+    color: #f94f6d;
+    font-weight: 400;
+    margin: 0 0 16px 0;
+    width: 120px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    
+    
+}
+.btn-row {
+    margin: 5px 0;
+    display: flex;
+    gap: 10px;
+}
+
+.newgame {
+    background: none;
+    color: #9aabd8;
+    border: solid 2px #9aabd8;
+    border-radius: 5px;
+    padding: 5px 4px;
+    font-size: 12px;
+    font-family: Timer;
+    height: 30px;
+    width: 80px;
+    
+}
+
+
+    
